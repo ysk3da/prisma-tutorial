@@ -1,0 +1,8 @@
+POST http://localhost:8080/books/ HTTP/1.1
+content-type: application/json
+
+{
+    "title": "銀河英雄伝説",
+    "author": "田中芳樹",
+    "overview": "遠未来の銀河系を舞台に、数多くの英雄たちによる攻防と権謀術数を、ラインハルト・フォン・ローエングラムとヤン・ウェンリーの2人を軸に描くスペースオペラ。"
+}

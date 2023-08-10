@@ -1,0 +1,18 @@
+{
+  "name": "prisma-tutorial",
+  "version": "1.0.0",
+  "description": "- [Prisma の導入とメリットを考える](https://qiita.com/am_765/items/5e42bd5f87b296f61fbc)",
+  "main": "index.js",
+  "scripts": {
+    "all-dev": "run-p prefix:*",
+    "prefix:backend": "npm --prefix ./backend run start",
+    "prefix:frontend": "npm --prefix ./frontend run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-generator": "^4.16.1",
+    "npm-run-all": "^4.1.5"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "prisma.prisma",
+    "prisma.prisma-insider",
+    "mtxr.sqltools",
+    "qwtel.sqlite-viewer"
+  ]
+}

@@ -1,0 +1,9 @@
+PUT http://localhost:8080/books/ HTTP/1.1
+content-type: application/json
+
+{
+    "id": 4,
+    "title": "星の王子さま２",
+    "author": "サン＝テグジュベリ",
+    "overview": "王子様が帰ってきましたが前回と全く同じ話でした。"
+}

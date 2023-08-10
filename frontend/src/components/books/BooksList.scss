@@ -1,0 +1,30 @@
+.bookListHeader {
+  margin-bottom: 50px;
+  text-align: left;
+  table,button {
+    margin: 0 auto;
+  }
+  button {
+    display: block;
+  }
+}
+
+.bookListBody {
+  table {
+    margin: 0 auto;
+    border: 1px solid #efefef;
+    border-collapse: collapse;
+    th, td {
+      border: 1px solid #efefef;
+    }
+    th {background-color: #CCC; padding: 5px;}
+    td {
+      text-align: left;
+      padding: 10px;
+      font-size: 14px;
+      button {
+        margin: 0 5px;
+      }
+    }
+  }
+}
