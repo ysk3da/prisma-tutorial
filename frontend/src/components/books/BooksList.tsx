@@ -140,11 +140,6 @@ export const BookList = () =>{
       console.error("Error adding book:", error);
     }
 
-    // setInputData({
-    //   title: "",
-    //   author: "",
-    //   overview: ""
-    // });
 
     //Todo:stateで保持している入力値を利用し、 state の books に 1 件追加 -> DBなしでの確認に使用
     // const newBooks = [...books, inputData];
